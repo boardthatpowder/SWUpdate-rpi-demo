@@ -1,0 +1,3 @@
+conf.o: conf.c lkc.h expr.h list.h lkc_proto.h
+confdata.o: confdata.c lkc.h expr.h list.h lkc_proto.h
+expr.o: expr.c lkc.h expr.h list.h lkc_proto.h

@@ -1,5 +1,5 @@
 #!/bin/sh
-# boot.sh - Script to lauch system when updated verification finished
+# boot.sh - Script to launch system when updated verification finished
 
 # Variables
 R="2" # Number of try for rootfs boot

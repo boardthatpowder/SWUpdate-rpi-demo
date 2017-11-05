@@ -40,7 +40,7 @@ create_swu(){
 		echo $file;done | cpio -ov -H crc >  ${PRODUCT_NAME}-${VERSION}-${EMERGENCY_WORD}.swu
   if [ -f "${PRODUCT_NAME}-${CONTAINER_VER}-${EMERGENCY_WORD}.swu" ]
   then 
-    echo "L'archive ${PRODUCT_NAME}-${VERSION}-${EMERGENCY_WORD}.swu a bien été créée dans ${BINARIES_DIR}"
+    echo "The archive ${PRODUCT_NAME}-${VERSION}-${EMERGENCY_WORD}.swu was created in ${BINARIES_DIR}"
   fi
 
 	rm sw-description sw-description.sig
